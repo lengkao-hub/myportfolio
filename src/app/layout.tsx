@@ -34,7 +34,7 @@ export default function RootLayout({
           </div>
           <div className="col-span-12 md:col-span-7 lg:col-span-8">
             <Navbar />
-            <div className=" bg-white/80 p-5">
+            <div className=" backdrop-blur p-5 bg-white/10 text-white">
               {children}
             </div>
           </div>
